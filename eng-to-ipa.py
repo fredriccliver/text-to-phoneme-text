@@ -1,6 +1,6 @@
 import eng_to_ipa as ipa
 
-text = "Hello, it's fredric"
+text = "All idealisation makes life poorer."
 transcription = ipa.convert(text)
 
 print(transcription)

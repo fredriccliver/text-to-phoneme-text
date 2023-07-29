@@ -10,7 +10,7 @@
 eng-to-ipa.py
 ```
 
-hɛˈloʊ, ɪts ˈfrɛdrɪk.
+ɔl idealisation* meɪks laɪf ˈpurər
 
 
 
@@ -18,7 +18,7 @@ hɛˈloʊ, ɪts ˈfrɛdrɪk.
 ```bash
 python wav2vec2-ljspeech-gruut-w2p.py
 ```
-ɪ ɪ n m oʊ m ə n t s ə v d i p f i l ɪ n ə l aɪ k s ʌ n b ɚ s t s ə v p ɹ ɑ s p ɛ ɹ ə t i æ z ɪ n d ɑ ɹ k ɚ aʊ ɚ z m æ n m ʌ s t b i ə l oʊ n
+ɔ l d ə l ɪ z eɪ ʃ ə n m eɪ k s l aɪ f p ʊ ɹ
 
 
 
@@ -31,3 +31,11 @@ python wav2vec2-ljspeech-gruut-w2p.py
 3. Alignment and Comparison: For comparing A and B, you'll likely want to use a sequence alignment algorithm, such as the Levenshtein distance (also known as "edit distance"). This algorithm measures the minimum number of insertions, deletions, and substitutions that are necessary to change one sequence into another. You could use this to measure the difference between the expected IPA (A) and the actual IPA (B).
 
 4. Accuracy Calculation: You can calculate the accuracy as the ratio of the number of correctly pronounced phonemes to the total number of phonemes. For example, if there are 100 phonemes and 5 of them are mispronounced, the accuracy would be 95%.
+
+
+## ffmpeg
+
+Use ffmpeg to convert any other format to wav
+```bash
+ffmpeg -i sample.flac sample.wav
+```
