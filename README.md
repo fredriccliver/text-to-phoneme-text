@@ -3,6 +3,10 @@
 # Text and wav to phoneme (IPA)
 
 
+## intall package
+pip install -r requirements.txt
+
+
 
 ## text to phoneme (IPA)
 
